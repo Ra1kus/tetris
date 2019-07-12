@@ -35,6 +35,9 @@ export default class View {
         this.panelWidth = this.width / 3;
         this.panelHeight = this.height;
 
+        this.isGameStarted = false;
+        this.isGamePaused = false;
+
         this.element.appendChild(this.canvas);
     }
 
